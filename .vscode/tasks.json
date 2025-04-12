@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Processing Sketch",
+        "type": "shell",
+        "command": "processing-java",
+        "args": [
+          "--sketch=${workspaceFolder}/sketch",
+          "--run"
+        ],
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
+  
