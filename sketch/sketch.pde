@@ -46,7 +46,9 @@ void draw() {
   
 }
 
-
+void play(){
+  
+}
 
 void dark(){
     placolx = int(floor(playerX/cellSize));
