@@ -27,6 +27,11 @@ void setup() {
 void draw() {
   colorMode(RGB,255,255,255);
   background(0);
+  play();
+  
+}
+
+void play(){
   dark();
   moDelta();
   playerMove();
@@ -43,11 +48,6 @@ void draw() {
    drawMaze();
    playerDisp(); 
   }
-  
-}
-
-void play(){
-  
 }
 
 void dark(){
