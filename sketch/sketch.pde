@@ -1,6 +1,7 @@
 int cols, rows;
 float cellSize = 25;
 int count=0;
+int gnc = 0;
 int[][] grid;
 int placolx,placoly; 
 ArrayList<int[]> stack = new ArrayList<int[]>();
@@ -27,7 +28,11 @@ void setup() {
 void draw() {
   colorMode(RGB,255,255,255);
   background(0);
-  play();
+  if(gnc==0){
+
+  }else if(gnc==1){
+    play();
+  }
   
 }
 
