@@ -29,13 +29,15 @@ void draw() {
   colorMode(RGB,255,255,255);
   background(0);
   if(gnc==0){
-
+    start();
   }else if(gnc==1){
     play();
   }
   
 }
-
+void start(){
+  gnc = 1;
+}
 void play(){
   dark();
   moDelta();
